@@ -1,0 +1,11 @@
+1) Petición que devuelve el pokemon con la forma número 131 -> 
+
+curl "https://pokeapi.co/api/v2/pokemon-form/132/" 
+
+2) Petición que devuelve los 20 primero pokemon -> 
+
+curl "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20"
+
+3) Petición que devuelve los dos primeros tipos que pueden tener los pokemon -> 
+
+curl -d "start=1&limit=2" -G https://pokeapi.co/api/v2/type/ | json_pp
