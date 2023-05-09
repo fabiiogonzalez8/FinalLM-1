@@ -7,9 +7,9 @@ print("por Fabio Gonzalez, utilizando una API de Pokémon.")
 url_base='https://pokeapi.co/api/v2/'
 
 menu='''
-1) Ver todos los tipos que puede tener un pokémon.
+1) Mostrar la lista de tipos.
 2) Se muestran todas las regiones pokémon, indica una y se muestra en que juego aparece.
-3) Ver de que tipo es un pokémon.
+3) Ver de que tipo es un pokémon de la primera generación.
 4) Salir del programa
 '''
 print(menu)
