@@ -24,7 +24,6 @@ while opcion!=4:
         r=requests.get(url_base+url)
         tipos=r.json()
         nuevostipos=[]
-        print(tipos)
         for i in tipos["results"][:-2]:
             nuevostipos.append(i["name"])
         print(', '.join(nuevostipos))
